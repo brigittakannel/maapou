@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+  <link rel="stylesheet" href="styles.css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="script.js" charset="utf-8"></script>
+  <title>Eesti maapõue aarded</title>
+</head>
+<body>
+  <header>
+    <div class="content">
+      <a class="header-title" href="#"><h1>Eesti maapõue aarded</h1></a>
+      <img class="pilved" src="assets/pilved.svg" alt="pilved">
+    </div>
+  </header>
+  <main>
+    <div class="game-manual">
+      <span class="close">X</span>
+      <div class="text">
+        <a href="Eesti-maapoue-aarete-infokaardid.pdf" target="_blank"><p>Enne mängimist tutvu Eesti maapõue aaretega lähemalt.</p></a>
+        <h3>Kas tunned maavarasid?</h3>
+        <p>1. Vali küsimusele vastuste hulgast sobiv. Igal küsimusel on üks õige vastus.  <br>
+        2. Kui vastus oli õige, siis värvub see roheliseks, kui vale, siis punaseks. <br>
+        3. Loe kindlasti läbi ka vastuste alla ilmuv selgitus. <br>
+        4. Iga õige vastus annab ühe punkti, testi lõpus näed kogutud punktide arvu.</p>
+        <h3>Kus kasutame maavarasid?</h3>
+        <p>1. Klikkides “maavarad kodus” või “maavarad linnas”, ilmuvad punased vilkuvad nupud, millel peatudes avaneb tekstikast selgitusega, millist maavara toote valmistamiseks on kasutatud. Jäta meelde nii palju, kui suudad!<br>
+        2. Mängu viimases osas testime teadmisi eelpool loetu põhjal.<br>
+        3. Iga õige vastus annab ühe punkti, testi lõpus näed kogutud punktide arvu.</p>
+        <h3>Mida arvad sina?</h3>
+        <p>1. Avalda arvamust nihutades skaalal olevat ekskavaatorit vasakule või paremale ning vajuta nuppu “vastan”.<br>
+        2. Vaata selgitust ja võrdle, kas sul tekkisid samasugused mõtted. Lisaks näed ka, mida teised on vastanud.</p>
+      </div>
+    </div>
+    <div class="main content">
+      <div class="game-window">
+        <div class="canvas">
+          <div class="game-name"><h2></h2></div>
+          <!-- Game 1 content -->
+          <div class="game-1-content">
+            <div class="question"><h3></h3></div>
+            <div class="question-content">
+              <div class="image">
+                <img src="" alt="">
+              </div>
+              <div class="options">
+                <div class="option1"></div>
+                <div class="option2"></div>
+                <div class="option3"></div>
+              </div>
+            </div>
+            <div class="status">
+              <h4></h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+              </p>
+            </div>
+          </div>
+          <!-- Game 2 content -->
+          <div class="game-2-content">
+            <div class="buttons">
+              <div class="section-1 active">Maavarad kodus</div>
+              <div class="section-2">Maavarad linnas</div>
+              <div class="section-3">Testi teadmisi</div>
+            </div>
+            <div class="maavarad-kodus active">
+              <img class="kodus" src="assets/maavarad_kodus.svg" alt="maavarad kodus maja seestpoolt vaade">
+              <div id="home-dot-1" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-1" class="home-text">
+                <h4>Põlevkivi - kodukeemia, kosmeetika ja parfümeeria</h4>
+<p>Lõhnaõli Chanel No. 5 koostisesse kuulub kõige muu kõrval ka pisut põlevkiviõli. Põlevkivisaadusi võib leida ka juukselakist, BioEsti-nimelisest pesupulbrist ja juuksevärvidest.</p>
+              </div>
+
+              <div id="home-dot-2" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-2" class="home-text">
+                <h4>Tehnoloogiline dolokivi - kivivill</h4>
+<p>Dolokivist saab toota kivivilla, mida kasutatakse erinevate hoonete soojustamisel.</p>
+              </div>
+
+              <div id="home-dot-3" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-3" class="home-text">
+                <h4>Turvas - taimed, kompost</h4>
+                <p>Suurem osa turbast kasutatakse erinevate kasvusubstraatide tootmiseks. Kasvuturba sees kasvatatakse lilli ja köögivilju. </p>
+              </div>
+
+              <div id="home-dot-4" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-4" class="home-text">
+                <h4>Turvas - küte ja elekter</h4>
+                <p>Turbalasundi alumist kihti kutsutakse hästilagunenud turbaks. Seda põletatakse eraldi või koos hakkpuiduga ning sellest saadud soojusega köetakse elamuid ja toodetakse samal ajal ka elektrit.</p>
+              </div>
+
+              <div id="home-dot-5" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-5" class="home-text">
+                <h4>Savi – kergkruusa plokid, tsemendi koostisosa</h4>
+                <p>Savist saadakse pöördahjus põletamise tulemusel kergkruus, mis on täite- ja soojustusmaterjal. Kergkruus kujutab endast õhulisi keraamilisi terakesi, millest näiteks saab toota suhteliselt hea soojapidavusega plokke, millest omakorda ehitatakse maju. Savi on ka oluline koostisosa tsemendis.</p>
+              </div>
+
+              <div id="home-dot-6" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-6" class="home-text">
+                <h4>Fosforiit – arvutid, mobiiltelefonid, kõlarid jms.</h4>
+                <p>Eesti fosforiit sisaldab mitmeid haruldasi muldmetalle, mis on asendamatud kaasaegsete elektroonikaseadmete tootmisel.</p>
+              </div>
+
+              <div id="home-dot-7" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-7" class="home-text">
+                <h4>Rauamaak – valgustid ja kütteseadmed</h4>
+                <p>Rauamaagist saab toota rauda, mida kasutatakse kõikjal meie ümber. Rauast on radiaatorid, valgustite erinevad osad, paljud torud, uksed, erinevad seadmed jne.</p>
+              </div>
+
+              <div id="home-dot-8" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-8" class="home-text">
+                <h4>Paekivi ja graniit – põrandad, trepid, tasapinnad</h4>
+                <p>Kvaliteetne paekivi ja graniit on hea väljanägemisega ja vastupidavad kivimid, mida on sobilik kasutada ka erinevate pindade katmiseks. Näiteks on paljud trepid ja põrandad nendest kivimitest tehtud plaatidega kaetud.</p>
+              </div>
+
+              <div id="home-dot-9" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-9" class="home-text">
+                <h4>Maasoojus – maaküte</h4>
+                <p>Maasoojus on taastuvenergia, mille kasutamine on tihti mõistlik kulude kokkuhoidmiseks. Praegu kasutatakse Eestis maapinna lähedast maasoojust näiteks maasoojuspumpadega majade kütmiseks. </p>
+              </div>
+
+              <div id="home-dot-10" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-10" class="home-text">
+                <h4>Turvas – kreemid, maskid</h4>
+                <p>Turvast kasutatakse vähesel määral ka erinevates kosmeetikatoodetes, kuna see sisaldab mitmeid bioaktiivseid aineid, millel on usutavasti hea mõju inimese nahale.</p>
+              </div>
+
+              <div id="home-dot-11" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-11" class="home-text">
+                <h4>Paekivi – ehitusmaterjal</h4>
+                <p>Paekivi on väga levinud ja vana ehitusmaterjal. Näiteks on paljud vanad kirikud ja muud hooned ehitatud paekivi plokkidest. Paekivi plokke kasutatakse mõnikord ehitamiseks ka tänapäeval. Praegu on siiski levinum paekivi killustiku kasutamine betooni tootmiseks.</p>
+              </div>
+
+              <div id="home-dot-12" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-12" class="home-text">
+                <h4>Põlevkivi – elektri tooraine</h4>
+                <p>Põlevkivi on pikalt olnud peamine Eesti elektrienergia tooraine. Elektri saamiseks põletatakse Ida-Virumaal elektrijaamades põlevkivi ja toodetakse saadud soojusest elektrit. </p>
+              </div>
+
+              <div id="home-dot-13" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="home-text-13" class="home-text">
+                <h4>Fosforiit – taimede väetis</h4>
+                <p>Fosforiidist saab toota fosforväetisi, mis sisaldavad taimede poolt omastatavas vormis fosforit. Fosfor on vajalik seemnete idanemiseks, juurdumiseks, õiepungade arenguks.</p>
+              </div>
+
+            </div>
+            <div class="maavarad-linnas">
+              <img class="linnas" src="assets/maavarad_linnas.svg" alt="maavarad kodus maja seestpoolt vaade">
+              <div id="city-dot-1" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="city-text-1" class="home-text">
+                <h4>Paekivi ja graniit – tee-ehitusmaterjalid</h4>
+                <p>Suurem osa kaevandatavatest ehitusmaavaradest kasutatakse Eestis teede ehitamiseks ja parandamiseks. Kaua heas korras püsivad teed vajavad hea kvaliteediga paekivi ja/või graniiti.</p>
+              </div>
+
+              <div id="city-dot-2" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="city-text-2" class="home-text">
+                <h4>Põlevkivi – elektri tooraine</h4>
+                <p>Põlevkivi on pikalt olnud peamine Eesti elektrienergia tooraine. Elektri saamiseks põletatakse Ida-Virumaal elektrijaamades põlevkivi ja toodetakse saadud soojusest elektrit.</p>
+              </div>
+
+              <div id="city-dot-3" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="city-text-3" class="home-text">
+                <h4>Rauamaak – sõidukite kered, mootori osad</h4>
+                <p>Rauamaagist saab toota rauda, millest on ka paljud autode osad.</p>
+              </div>
+
+              <div id="city-dot-4" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="city-text-4" class="home-text">
+                <h4>Rauamaak – elektriliinide mastid</h4>
+                <p>Rauamaagist saab toota rauda, millest on ka suuremad elektriliinide mastid.</p>
+              </div>
+
+              <div id="city-dot-5" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="city-text-5" class="home-text">
+                <h4>Põlevkivi – rehvid</h4>
+                <p>Põlevkiviõli tootmisel tekkivaid fenoole saab kasutada kummivaigu tootmiseks, mida kasutatakse rehvide koostises.</p>
+              </div>
+
+              <div id="city-dot-6" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="city-text-6" class="home-text">
+                <h4>Liiv ja kruus – teede ehitamine</h4>
+                <p>Suurem osa kaevandatavatest ehitusmaavaradest kasutatakse Eestis teede ehitamiseks ja parandamiseks. Liiv ja kruus leiavad laialt kasutust teede aluspinnase ehitamisel.</p>
+              </div>
+
+              <div id="city-dot-7" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="city-text-7" class="home-text">
+                <h4>Tehnoloogiline lubjakivi – tsement ja klaas</h4>
+                <p>Kindlate omadustega lubjakivi on oluline tsemendi ja klaasi koostisosa.</p>
+              </div>
+
+              <div id="city-dot-8" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="city-text-8" class="home-text">
+                <h4>Graptoliitargilliit – metallisulamina reaktiivmootorites</h4>
+                <p>Keerulise nimega maavara, graptoliitargilliit sisaldab haruldasi keemilisi elemente – uraani, molübdeeni, vanaadiumi ja reeniumi. Viimast kasutatakse reaktiivmootorite komponentide sulamite koostises.</p>
+              </div>
+
+              <div id="city-dot-9" class="dot"><img src="assets/red-dot.svg" alt="punane täpp"></div>
+              <div id="city-text-9" class="home-text">
+                <h4>Põlevkivi – bensiin</h4>
+                <p>Põlevkiviõli tootmisel saaks lisaks toota ka bensiini, mida oleks pärast töötlemist võimalik autodes kasutada. Praegu veel Eestis bensiini ei toodeta.</p>
+              </div>
+            </div>
+            <div class="game-2-test">
+              <div class="question"><h3></h3></div>
+              <div class="question-content">
+                <div class="options">
+                  <div class="option1"></div>
+                  <div class="option2"></div>
+                  <div class="option3"></div>
+                </div>
+              </div>
+              <div class="status">
+                <h4></h4>
+                <p>
+                </p>
+              </div>
+            </div>
+          </div><!-- /Game 2 content -->
+
+          <!-- Game 3 content -->
+          <div class="game-3-content">
+            <div class="question"><h3></h3></div>
+            <div class="question-content">
+              <!-- CUSTOM SLIDER -->
+
+                <form id="slider" class="slidecontainer" action="https://maapoue.dev.codelab.ee/api/statistics" method="submit">
+                  <div class="slider-wrap">
+                    <input type="range" min="1" max="5" value="3" class="slider" id="myRange">
+                    <div class="row stripes">
+                      <span class="stripe"></span>
+                      <span class="stripe"></span>
+                      <span class="stripe"></span>
+                      <span class="stripe"></span>
+                      <span class="stripe"></span>
+                    </div>
+                    <img class="yes" src="assets/yes1.svg" alt="yes">
+                    <img class="no" src="assets/no1.svg" alt="no">
+                  </div>
+                  <div class="row opinions">
+                    <p>JAH</p><p>PIGEM JAH</p><p>EI TEA</p><p>PIGEM EI</p><p>EI</p>
+                  </div>
+                  <input class="btn-submit" type="submit" name="submit" value="Vasta">
+                  <div id="stats">
+                    <p class="statistics">Vastajaid <span id="count"></span>. <span id="answer"></span></p>
+                    <p class="answer-text"></p>
+                  </div>
+                </form><!-- CUSTOM SLIDER -->
+            </div>
+            <div class="status">
+              <h4></h4>
+              <p>
+              </p>
+            </div>
+          </div><!-- Game 3 content -->
+
+          <div class="game-over">
+            <img class="robot" src="" alt="robot mehike">
+            <div class="results">
+              <h5></h5>
+              <p></p>
+              <h6></h6>
+            </div>
+          </div>
+
+          <div class="game-nav">
+            <div class="prev">
+              Eelmine
+            </div>
+            <div class="next">
+              Järgmine
+            </div>
+            <div class="home header-title">Tagasi avalehele</div>
+          </div>
+
+          <img class="start-robot" src="assets/mehike.svg" alt="robot mehike">
+          <img class="ie" src="assets/ie.svg" alt="internet explorer not working text">
+          <!--[if IE]>
+            <img class="ie" style="display:block;" src="assets/ie.svg" alt="internet explorer not working text">
+          <![endif]-->
+          <div class="video-content">
+            <img id="playButton" class="play" src="assets/play.svg" alt="play nupp">
+            <p class="video-text">Vaata videot ja saa teada,<br> mis toimub maapõues</p>
+            <video id="myVideo" width="0" height="0">
+             <source src="video/maap6u.mp4" type="video/mp4">
+           </video>
+           <script type="text/javascript">
+           var myVideo = document.getElementById('myVideo');
+           var playButton = document.getElementById('playButton');
+
+           playButton.addEventListener('click', function () {
+
+               if (myVideo.paused) {
+                   if (myVideo.requestFullscreen) {
+                       myVideo.requestFullscreen();
+                   }
+                   else if (myVideo.msRequestFullscreen) {
+                       myVideo.msRequestFullscreen();
+                   }
+                   else if (myVideo.mozRequestFullScreen) {
+                       myVideo.mozRequestFullScreen();
+                   }
+                   else if (myVideo.webkitRequestFullScreen) {
+                       myVideo.webkitRequestFullScreen();
+                   }
+                   this.src.replace('play.svg','pause2.svg');
+                   myVideo.play();
+               }
+               else {
+                   this.src.replace('pause2.svg', 'play.svg');
+                   myVideo.pause();
+               }
+           }, false);
+           $( document ).on( 'keydown', function ( e ) {
+              if ( e.keyCode === 27 ) { // ESC
+                  $('#myVideo').hide();
+              }
+          });
+           </script>
+          </div>
+
+        </div><!-- .canvas -->
+
+        <div class="games row">
+          <div class="game-1"><p>Kas tunned maavarasid?</p></div>
+          <div class="game-2"><p>Kus kasutame maavarasid?</p></div>
+          <div class="game-3"><p>Mida arvad sina?</p></div>
+        </div>
+        <div class="logos">
+          <a href="https://kik.ee/et" target="_blank"><img src="assets/kik.svg" alt="keskkonnainvesteeringute keskus"></a>
+          <a href="https://www.envir.ee/et" target="_blank"><img src="assets/kem.svg" alt="keskkonnaministeerium"></a>
+        </div>
+      </div><!-- Game window -->
+
+      <div class="side-window">
+        <img class="island" src="assets/Asset3.svg" alt="maapou maja saareke">
+        <div class="side-links">
+          <div class="game-info"><p>Mängujuhend</p><p>Loe lähemalt</p></div>
+          <a href="Eesti-maapoue-aarete-infokaardid.pdf" class="maavarad-link" target="_blank"><p>Eesti maavarad</p><p>Loe lähemalt</p></a>
+          <a href="http://www.envir.ee/sites/default/files/mpp_2050_kujundatud.pdf" class="maapouepoliitika-link" target="_blank"><p>Maapõuepoliitika põhialused</p><p>Loe lähemalt</p></a>
+        </div>
+        <div class="row">
+          <img class="island-2" src="assets/island2.svg" alt="maapou maja saareke">
+        </div>
+        <div class="row">
+          <img class="island-3" src="assets/island3.svg" alt="maapou maja saareke">
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
